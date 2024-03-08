@@ -13,3 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: nixci --build-systems "github:nix-systems/${{ matrix.system }}"
+      - run: nix develop -c cabal run
