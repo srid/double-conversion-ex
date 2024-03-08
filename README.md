@@ -1,4 +1,4 @@
-# GHC Nix `ld: symbol(s) not found for architecture arm64` on macOS
+# Reproducing Nix+GHC issues related to double-conversion + Darwin
 
 A mini repro for 
 - https://github.com/NixOS/nixpkgs/issues/149692
