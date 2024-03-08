@@ -12,7 +12,6 @@
       perSystem = { self', pkgs, ... }: {
 
         haskellProjects.default = {
-          basePackages = pkgs.haskell.packages.ghc927;
           devShell = {
             tools = hp: {
               hlint = null;
